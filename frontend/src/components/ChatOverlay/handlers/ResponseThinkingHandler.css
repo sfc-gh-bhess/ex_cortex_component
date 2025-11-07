@@ -1,0 +1,49 @@
+.response-thinking-container {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.thinking-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: background-color 0.2s;
+}
+
+.thinking-toggle:hover {
+  background-color: #f0f0f0;
+}
+
+.toggle-icon {
+  color: #667eea;
+  font-size: 0.8rem;
+}
+
+.thinking-label {
+  color: #667eea;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.thinking-content {
+  padding: 0.75rem;
+  padding-top: 0;
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  font-style: italic;
+  max-width: 100%;
+  overflow-x: auto;
+}
+

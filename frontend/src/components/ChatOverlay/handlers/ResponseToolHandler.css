@@ -1,0 +1,169 @@
+.response-tool-container {
+  margin: 0.5rem 0;
+  max-width: 100%;
+}
+
+.tool-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.tool-toggle:hover {
+  background: #e9ecef;
+}
+
+.tool-toggle-label {
+  flex: 1;
+  color: #333;
+  font-weight: 500;
+}
+
+.toggle-icon {
+  color: #667eea;
+  font-size: 0.8rem;
+}
+
+.tool-operations {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+.tool-operation {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  padding: 0.75rem;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.tool-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tool-icon {
+  font-size: 1.1rem;
+}
+
+.tool-name {
+  font-weight: 600;
+  color: #333;
+  flex: 1;
+}
+
+.tool-status {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.tool-status-success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.tool-status-error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.tool-status-running,
+.tool-status-loading {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.tool-details {
+  margin-top: 0.5rem;
+}
+
+.tool-details summary {
+  cursor: pointer;
+  color: #667eea;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.25rem 0;
+}
+
+.tool-details summary:hover {
+  text-decoration: underline;
+}
+
+.tool-json {
+  background-color: #2d2d2d;
+  color: #f8f8f2;
+  padding: 0.75rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  overflow-x: auto;
+  margin-top: 0.5rem;
+  font-family: 'Courier New', monospace;
+}
+
+.tool-analyst-output {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background-color: #e7f3ff;
+  border-left: 3px solid #2196f3;
+  border-radius: 4px;
+}
+
+.analyst-label {
+  font-weight: 600;
+  color: #1976d2;
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+}
+
+.analyst-content {
+  color: #333;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  white-space: pre-wrap;
+}
+
+.tool-result {
+  margin-top: 0.5rem;
+}
+
+.result-label {
+  font-weight: 600;
+  color: #555;
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+}
+
+.result-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.result-item {
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.result-text {
+  color: #333;
+  line-height: 1.4;
+}
+

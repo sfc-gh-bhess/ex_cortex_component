@@ -1,0 +1,12 @@
+{
+  "name": "@cortex-agent/chat-overlay",
+  "version": "1.0.0",
+  "description": "React chat overlay component for Snowflake Cortex Agents",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
+
