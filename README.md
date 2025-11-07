@@ -6,6 +6,8 @@ An educational example application demonstrating how to interact with Snowflake 
 
 This application is designed to help developers learn how to build applications that integrate with Snowflake Cortex Agents. It provides a complete, working example that can be customized and extended for specific use cases.
 
+This example works with any Cortex Agent that you have created. 
+
 ### Key Features
 
 - **User Authentication**: Login/logout with Snowflake database authentication
